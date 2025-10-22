@@ -3,6 +3,7 @@
     <content>
         <ToggleButton xmlns="sap.m" text="Toggle Button" press="onClickMe" id="button1"/>
         <Button xmlns="sap.m" text="Button" id="button2"/>
+        <Text text="Test" id="text" />
     </content>
     </Page>
 </mvc:View>
