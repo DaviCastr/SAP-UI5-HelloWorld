@@ -1,0 +1,14 @@
+stages:
+  build:
+    buildTool: "mta"
+    buildDescriptor: "./helloworldui5/mta.yaml"
+    buildToolVersion: "MBTJ21N22"
+  malwareScan:
+    scan: false
+  release:
+    cfDeploy:
+      strategy: "default"
+      apiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
+      org: "organ"
+      space: "dev"
+      credential: "btp"
