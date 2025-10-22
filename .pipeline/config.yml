@@ -1,7 +1,8 @@
 stages:
   build:
     buildTool: "mta"
-    buildDescriptor: "helloworldui5/mta.yaml"
+    source: helloworldui5
+    buildDescriptor: "mta.yaml"
     buildToolVersion: "MBTJ21N22"
   malwareScan:
     scan: false
