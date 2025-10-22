@@ -1,0 +1,8 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="apps.dflc.helloworldui5.controller.Main">
+    <Page id="page" title="{i18n>title}">
+    <content>
+        <ToggleButton xmlns="sap.m" text="Toggle Button" press="onClickMe" id="button1"/>
+        <Button xmlns="sap.m" text="Button" id="button2"/>
+    </content>
+    </Page>
+</mvc:View>
